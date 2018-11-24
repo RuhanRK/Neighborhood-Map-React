@@ -26,7 +26,7 @@ export const loadScript = _ => {
 
 export const createScript = _ => {
         const mapScript = document.createElement("script");
-        const MY_API_KEY = "AIzaSyCEsRzfzIlVfk17_9w5fKnQF1FbXTTfcqE";
+        const MY_API_KEY = "AIzaSyAJ_RqhTFXA-vRPcB2wbjPkWQO4Mv9F_mk";
         mapScript.src= `https://maps.googleapis.com/maps/api/js?key=${MY_API_KEY}&callback=initMap`;
         mapScript.async = true;
         mapScript.defer = true;
